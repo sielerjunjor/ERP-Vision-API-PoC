@@ -1,6 +1,6 @@
 Google Cloud Vision API
 ------------------------
--Preperation for Paper and Presentation about AI in Enterprise Applications with the Vision API as an example
+Preperation for Paper and Presentation about AI in Enterprise Applications with the Vision API as an example
 
 
  How To
