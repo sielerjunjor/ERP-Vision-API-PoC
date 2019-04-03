@@ -1,9 +1,11 @@
 from google.cloud import vision
 from google.cloud.vision import types
+from PIL import Image, ImageDraw
 
 client = vision.ImageAnnotatorClient()
 image = vision.types.Image()
 image.source.image_uri = 'https://cloud.google.com/vision/docs/images/bicycle.jpg'
+
 
 objects = client.object_localization(
         image=image).localized_object_annotations
